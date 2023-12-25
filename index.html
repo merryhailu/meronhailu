@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio</title>
+</head>
+<body>
+   <div class="nav">
+      <h2 class="logo">Meron</h2>
+      <ul>
+         <li><a href="#hello">Home</a></li>
+         <li><a href="#aboutme">About Me</a></li>
+         <li><a class="skills" href="#row">Skills</a></li>
+         <div class="dropdown">
+            <a href="#">Web Developer</a>
+            <a href="#">Graphic Designer</a>
+            <a href="#">Digital Marketing</a>
+   
+         </div>
+         <li><a href="#contactme">Contact Me</a></li>
+      </ul>
+      
+   </div> <br><br><br>
+
+   <div class="hello" id="hello">
+       <div class="helloBox" style="color:white; text-align:center">
+           <h2 style="padding: 50px; padding-top: 150px;">Hello!</h2>
+           <h1 style="font-size: 103px;">I am</h1>
+           <h1 style="padding-bottom: 50px; font-size: 90px;">Meron Hailu</h1>
+           <p style="padding: 50px;font-size: 30px;">Professional Graphic Designer and Web Developer </p>
+           
+       </div>
+   </div>  
+   
+   <Section class="aboutme" id="aboutme"  style="font-size: 35px;"> 
+      <img src="Image/about me.jpg" alt="Meron pic">
+          <div class="content">
+              <h1>About Me</h1>
+              <p>     I am called Meron Hailu. Am graduate from Mekelle Institute of 
+            Technology with bachelors Degree in Computer science and engineering 
+            .am someone who very much Passion for Technology Industry and passionate 
+            in-graphics and editing . 
+            Self-Motivated and hardworking fresher seeking for an opportunity to work
+             in a challenging environment to prove my skills and utilize my knowledge 
+             and intelligence in the growth of the organization. Am comfortable working 
+             on my own. I also gain job satisfaction from working as part of a team.</p>   
+             <button class="button" onclick="alert('Hello')">Read More</button>
+          </div>
+  </Section>
+
+
+
+   <Section>
+       <div  class="row" id="row">
+        <h1>My Skills</h1>
+       </div>  
+       <div class="row">
+           <div class="column">
+              <div class="card">
+                   
+                       <img src="Image/hand.png" alt="yyy" width="100px">
+                  
+                   <h3>Web Developer</h3>
+                   <p>A web developer is a programmer who develops World Wide Web 
+                    applications using a client–server model. </p>
+              </div>
+           </div>
+           <div class="column">
+            <div class="card">
+            
+                     <img src="Image/technology.png" alt="yyy" width="100px">
+                 
+                 <h3>Graphic Designer</h3>
+                 <p>Graphic designers create visual concepts, using computer 
+                  software or by hand, to communicate ideas that inspire, inform, 
+                  and captivate consumers.</p>
+            </div>
+         </div>
+         <div class="column">
+          <div class="card">
+               
+                   <img src="Image/transparent.png" alt="yyy" width="100px">
+               
+               <h3>Digital Marketer</h3>
+               <p>Digital marketing is the promotion of brands to connect with 
+                potential customers using the internet and other forms of digital 
+                communication.</p>
+          </div>
+       </div>
+       </div>
+  </Section>
+
+   <div class="contactme" id="contactme">
+      <form action="#">
+          <h1>GET IN TOUCH</h1>
+          <label for="fname">First Name</label>
+          <input type="text" name="firstname" placeholder="your name">
+          <label for="lname">Last Name</label>
+          <input type="text" name="lastname" placeholder="your last name">
+          <label for="country">country</label>
+          <select name="country">
+              <option value="Ethiopia"> Ethiopia</option>
+              <option value="Mekelle">Mekelle</option>
+              <option value="America">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea name="subject" cols="10" rows="10" placeholder="How i can help you?"></textarea>
+          <button>Submit</button>
+      </form>
+   </div>
+  
+
+   <div class="footer">
+    <h3>&copy; 2023 Designed by meron hailu</h3>
+   </div>
+
+
+</body>
+</html>
